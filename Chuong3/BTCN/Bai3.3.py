@@ -5,6 +5,6 @@ if ch=="+":
     c=x+y
 elif ch=="-": c=x-y
 elif ch=="*": c=x*y
-elif ch=="/": c=x/y
+elif ch=="/" and y!=0 : c=x/y
 else: print("Khong hop le")
 print(str(x)+str(ch)+str(y)+"="+str(round(c,1)))
